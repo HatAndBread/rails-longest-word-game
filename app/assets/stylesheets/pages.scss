@@ -1,0 +1,23 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.letter-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.letter {
+  display: flex;
+  font-family: monospace;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 6px;
+  background-color: lightsalmon;
+  color: snow;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+}
